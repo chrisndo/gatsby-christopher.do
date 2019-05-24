@@ -24,11 +24,6 @@ const SocialLinks = () => (
         <FaInstagram />
       </a>
     </li>
-    <li>
-      <a href="#">
-        <FaGithub />
-      </a>
-    </li>
   </ul>
 );
 

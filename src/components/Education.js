@@ -2,6 +2,7 @@ import React from "react";
 
 const Education = () => (
   <div className="row education">
+    <font color="#0353a3">
     <div className="three columns header-col">
       <h1>
         <span>Education</span>
@@ -11,45 +12,45 @@ const Education = () => (
     <div className="nine columns main-col">
       <div className="row item">
         <div className="twelve columns">
-          <h3>University of Life</h3>
+          <h3>University of South Florida</h3>
           <p className="info">
-            Master in Graphic Design
+            Master of Science in Electrical Engineering
             <span>&bull;</span>
-            <em className="date">April 2007</em>
+            <em className="date">May 2011</em>
           </p>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-            aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede
-            mollis pretium.
+            I studied Electrical Engineering with a focus on digital design from 2009 to 2011 at the
+            University of South Florida (USF) in Tampa, FL.  I made some amazing connections ends
+            with classmates and learned a lot of new stuff involving digital design and analysis
+            of data using software tools.
           </p>
         </div>
       </div>
 
       <div className="row item">
         <div className="twelve columns">
-          <h3>School of Cool Designers</h3>
+          <h3>University of Florida</h3>
           <p className="info">
-            B.A. Degree in Graphic Design
+            Bachelor of Science in Electrical Engineering
             <span>&bull;</span>
-            <em className="date">March 2003</em>
+            <em className="date">May 2009</em>
           </p>
 
           <p>
-            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-            velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
-            auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
-            Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-            Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
-            ornare odio. Sed non mauris vitae erat
+            Majored in Electrical Engineering and probably had the most fun 5 years of my life
+            at the University of Florida (UF) in Gainesville, FL.  Spent my time at UF enjoying
+            college sports, and was lucky to be there for two NCAA Football National Championships
+            and two NCAA Mens Basketball Nation Championships, and was able to attend one of each in person.
+            I specialized in digital logic and digital design for my degree, as I was extremely
+            interested in playing with microprocessors and programming them to do cool things.  My favorite
+            project was designing a robot that played the UF fight song and had a remote control to
+            steer it, as well as sensors to avoid objects.
           </p>
         </div>
       </div>
     </div>
+    </font>
   </div>
 );
 
