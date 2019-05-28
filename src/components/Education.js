@@ -21,7 +21,7 @@ const Education = () => (
 
           <p>
             I studied Electrical Engineering with a focus on digital design from 2009 to 2011 at the
-            University of South Florida (USF) in Tampa, FL.  I made some amazing connections ends
+            University of South Florida (USF) in Tampa, FL.  I made some amazing connections
             with classmates and learned a lot of new stuff involving digital design and analysis
             of data using software tools.
           </p>
