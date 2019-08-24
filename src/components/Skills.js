@@ -39,6 +39,20 @@ const Skills = () => (
 
       <div className="row item">
         <div className="twelve columns">
+          <h4>Certified Ethical Hacker (CEH)</h4>
+          <p className="info">
+            <font color="#0353a3">
+            EC-Council
+            <span>&bull;</span>
+            <em className="date">Issued Aug 2019</em>
+            <span>&bull;</span>Member ID: <a  href="https://aspen.eccouncil.org/VerifyBadge?type=certification&a=I75bywlb1mWcSHUraFeFfgVUaREFxfxgPK89sxg6mIo=" target="_blank">ECC5219607483</a>
+            </font>
+          </p>
+        </div>
+      </div>
+
+      <div className="row item">
+        <div className="twelve columns">
           <h4>Amazon Web Services Certified Solutions Architect - Associate (AWS CSAA)</h4>
           <p className="info">
             <font color="#0353a3">
