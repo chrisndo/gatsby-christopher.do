@@ -60,7 +60,7 @@ pull updates from github
 `git pull origin master`
 
 
-command to push updates to github(Deny login if it pops up)
+command to push updates to github (Deny login if it pops up)
 
 ```
 git add -A
