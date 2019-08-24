@@ -72,4 +72,3 @@ git push origin master
 command to pull files you accidentally deleted locally
 
 `git checkout -f HEAD`
-

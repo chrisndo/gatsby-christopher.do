@@ -20,14 +20,16 @@ const Work = () => (
           </p>
 
           <p><ul>
-          <li>• Responsible for managing security operations and compliance for a federal client utilizing Amazon Web Services (AWS) to provide a cloud Platform as a Service (PaaS) to various customers for developing, running, and managing applications.</li>
-          <li>• Worked to ensure FISMA and FedRAMP compliance by adhering to NIST 800-53 as well as other agency requirements, focusing on container (Docker) security/compliance.</li>
-          <li>• Implemented and automated processes to streamline vulnerability management using Google Apps Scripts, ingesting vulnerability report data into Google Sheets to analyze and create various POA&M tickets and assigning them to the respective parties for remediation.</li>
-          <li>• Worked with product teams to architect secure systems and provide guidance on risk management.</li>
-          <li>• Helped to maintain security and compliance documentation for various system packages.</li>
-          <li>• Provided continuous monitoring support to enforce agency and program policies are met and the security posture is at an acceptable risk level.</li>
-          <br/>
-          <li>• Tools used: Jira, Confluence, G Suite (Google), Tenable Nessus/Security Center, Twistlock, Netsparker, AWS S3/EC2, Google Apps Scripts (Javascript based), ServiceNow</li>
+            <li>• Managed security operations and compliance for a federal client utilizing Amazon Web Services (AWS) to provide platform for tenants to develop, run, and manage applications in an Agile environment.</li>
+            <li>• Implemented and automated security processes shift security to the left to align with a DevSecOps framework.</li>
+            <li>• Ensured compliance with Federal standards such as FISMA and FedRAMP utilizing NIST SP 800-37 and NIST SP 800-53.</li>
+            <li>• Worked with engineers to architect secure systems that aligned with compliance standards.</li>
+            <li>• Created and maintained security and compliance documentation that shaped the security policies of the growing platform.</li>
+            <li>• Automated the vulnerability management process using scripts, reducing manual analysis time by over 99%. Automated other various documentation and security processes using Javascript or Python.</li>
+            <li>• Implemented new security tools to enhance our DevSecOps pipeline to have a secure-by-design foundation.</li>
+            <br/>
+            <li>• Tools used: Jira, Confluence, G Suite (Google), Tenable Nessus, Twistlock, Netsparker, AWS, Google Apps Scripts/Javascript, Python.</li>
+
           </ul>
           </p>
         </div>
