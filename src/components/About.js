@@ -18,7 +18,7 @@ const About = () => (
         Extremely resourceful, analytical, and detail-driven when managing
         and completing multiple tasks or projects efficiently.
         Excellent teamwork, leadership, and communication skills. <br/><br/>
-        I'm currently working at Booz Allen and I'm learning tons of
+        I'm currently working at Deloitte and I'm learning tons of
         cool things surrounding cloud architecture and security engineering.<br/><br/>Cloud Enthusiast.
 
         </p>
