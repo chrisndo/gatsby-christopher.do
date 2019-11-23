@@ -10,6 +10,22 @@ const Work = () => (
     </div>
 
     <div className="nine columns main-col">
+       <div className="row item">  
+        <div className="twelve columns">
+          <h3>Deloitte</h3>
+          <p className="info">
+            Cloud Security Engineer
+            <span>&bull;</span>
+            <em className="date">September 2018 - Present</em>
+          </p>
+
+          <p><ul>
+            <li>• Working with the Cyber Security team for Deloitte Consulting.
+          </ul>
+          </p>
+        </div>
+      </div>
+
       <div className="row item">
         <div className="twelve columns">
           <h3>Booz Allen Hamilton</h3>
