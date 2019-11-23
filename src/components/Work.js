@@ -20,7 +20,7 @@ const Work = () => (
           </p>
 
           <p><ul>
-            <li>• Working with the Cyber Security team for Deloitte Consulting.
+            <li>• Working with the Cyber Security team for Deloitte Consulting.</li>
           </ul>
           </p>
         </div>
