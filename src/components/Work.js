@@ -10,17 +10,42 @@ const Work = () => (
     </div>
 
     <div className="nine columns main-col">
+      <div className="row item">  
+        <div className="twelve columns">
+          <h3>McKinsey</h3>
+          <p className="info">
+            Cloud Security Engineer & Architect
+            <span>&bull;</span>
+            <em className="date">September 2021 - Present</em>
+          </p>
+
+          <p><ul>
+            <li>• Solving cloud security problems for clients.</li>
+          </ul>
+          </p>
+        </div>
+      </div>
        <div className="row item">  
         <div className="twelve columns">
           <h3>Deloitte</h3>
           <p className="info">
             Cloud Security Engineer
             <span>&bull;</span>
-            <em className="date">September 2018 - Present</em>
+            <em className="date">November 2019 - September 2021</em>
           </p>
 
           <p><ul>
             <li>• Working with the Cyber Security team for Deloitte Consulting.</li>
+<li>• Developed and automated foundational security controls implemented globally across Deloitte Cloud environments.</li>
+<li>• Automated configuration management solutions within AWS to ensure proper baseline security settings and agents were applied.</li>
+<li>• Created an internal web application allowing practitioners to view security control information in a multi-cloud environment.</li>
+<li>• Led team of global security engineers to design, develop, and implement security into the platform.</li>
+<li>• Evaluated new cloud service providers from a Deloitte security and compliance view to assist in potential onboarding.</li>
+<li>• Ensured Deloitte Consulting met compliance, implemented secure architecture, and reduced risk for security vulnerabilities.</li>
+<li>• Led Cyber Risk Assessment of Deloitte’s Cloud Services using a custom developed framework to find anomalies and reported</li>
+vulnerabilities to senior leadership which initiated remediation efforts to key areas.</li>
+<li>• Developed custom scripts to interact with various security tools via API’s to analyze data and automate security reporting.</li>
+<li>• Selected from hundreds of applicants to be a member of the Deloitte Class of 2020 CIO Institute.</li>
           </ul>
           </p>
         </div>
