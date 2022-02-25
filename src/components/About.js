@@ -29,10 +29,10 @@ const About = () => (
               <span>Christopher Do</span>
               <br />
               <span>
-                Arlington, VA
+                Alexandria, VA
               </span>
               <br />
-              <span>(813)990-7318</span>
+              <span>813.990.7318</span>
               <br />
               <span>chris.n.do@gmail.com</span>
             </p>
