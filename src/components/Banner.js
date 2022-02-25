@@ -6,7 +6,7 @@ const Banner = () => (
     <div className="banner-text">
       <h1 className="responsive-headline">Christopher Do</h1>
       <h3>
-        <span>Cloud Security Engineer at <a href="https://www.deloitte.com/">Deloitte.</a></span>
+        <span>Cloud Security Engineer & Architect at <a href="https://www.deloitte.com/">McKinsey.</a></span>
         <br/><br/>
         <a className="smoothscroll" href="#about">
           {" "}
