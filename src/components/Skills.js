@@ -67,6 +67,21 @@ const Skills = () => (
 
       <div className="row item">
         <div className="twelve columns">
+          <h4>Amazon Web Services Certified Solutions Architect - Professional (AWS CSAP)</h4>
+          <p className="info">
+            <font color="#0353a3">
+            AWS
+            <span>&bull;</span>
+            <em className="date">Issued September 2021</em>
+            <span>&bull;</span>Member ID: DTNRQEFB3EBEQ232
+            </font>
+          </p>
+        </div>
+      </div>
+
+
+      <div className="row item">
+        <div className="twelve columns">
           <h4>Amazon Web Services Certified Solutions Architect - Associate (AWS CSAA)</h4>
           <p className="info">
             <font color="#0353a3">
