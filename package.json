@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-ceevee",
-  "description": "Gatsby Starter - CeeVee ",
+  "name": "chrisdo-resume-site",
+  "description": "chris-do-resume-site",
   "version": "1.0.1",
-  "author": "Aman Mittal <amandeepmittal@live.com>",
+  "author": "chris.n.do@gmail.com",
   "dependencies": {
     "gatsby": "^4.8.2",
     "gatsby-cli": "^4.8.1",

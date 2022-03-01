@@ -57,7 +57,7 @@ const Work = () => (
             <p className="info">
               Cloud Security Engineer
               <span>&bull;</span>
-              <em className="date">September 2018 - Present</em>
+              <em className="date">September 2018 - November 2019</em>
             </p>
 
             <p><ul>
