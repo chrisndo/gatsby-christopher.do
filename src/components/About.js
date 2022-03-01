@@ -1,5 +1,5 @@
 import React from "react";
-import { FaCloudDownload } from "react-icons/lib/fa";
+import { FaCloudDownloadAlt } from "react-icons/fa";
 
 import resumePDF from "../assets/resume/resume.pdf";
 import profilePic from "../assets/images/profile2.png";
@@ -13,13 +13,13 @@ const About = () => (
       <div className="nine columns main-col">
         <h2>About Me</h2>
         <p>
-        Highly driven engineering and technology professional with a MSEE and over 10 years of experience.
-        Excellent at adapting to new technologies in a changing environment.
-        Extremely resourceful, analytical, and detail-driven when managing
-        and completing multiple tasks or projects efficiently.
-        Excellent teamwork, leadership, and communication skills. <br/><br/>
-        I'm currently working at Deloitte and I'm learning tons of
-        cool things surrounding cloud architecture and security engineering.<br/><br/>Cloud Enthusiast.
+          Highly driven engineering and technology professional with a MSEE and over 10 years of experience.
+          Excellent at adapting to new technologies in a changing environment.
+          Extremely resourceful, analytical, and detail-driven when managing
+          and completing multiple tasks or projects efficiently.
+          Excellent teamwork, leadership, and communication skills. <br /><br />
+          I'm currently working at Deloitte and I'm learning tons of
+          cool things surrounding cloud architecture and security engineering.<br /><br />Cloud Enthusiast.
 
         </p>
         <div className="row">
@@ -40,7 +40,7 @@ const About = () => (
           <div className="columns download">
             <p>
               <a href={resumePDF} target="_blank" className="button">
-                <FaCloudDownload /> Download Resume
+                <FaCloudDownloadAlt /> Download Resume
               </a>
             </p>
           </div>

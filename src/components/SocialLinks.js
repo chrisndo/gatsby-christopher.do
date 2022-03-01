@@ -1,23 +1,23 @@
 import React from "react";
 import {
-  FaFacebookOfficial,
+  FaFacebookSquare,
   FaGithub,
   FaInstagram,
   FaEnvelopeSquare,
-  FaLinkedinSquare
-} from "react-icons/lib/fa";
+  FaLinkedin
+} from "react-icons/fa";
 // http://react-icons.github.io/react-icons/fa.html
 
 const SocialLinks = () => (
   <ul className="social">
     <li>
       <a href="https://www.facebook.com/ChristopherDo" target="_blank">
-        <FaFacebookOfficial />
+        <FaFacebookSquare />
       </a>
     </li>
     <li>
       <a href="https://www.linkedin.com/in/chrisndo/" target="_blank">
-        <FaLinkedinSquare />
+        <FaLinkedin />
       </a>
     </li>
     <li>
