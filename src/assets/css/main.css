@@ -393,11 +393,11 @@ dd { margin: 0 0 0 20px; }
 	counter-increment: definitions;
 }
 .dictionary-style dd:before {
-  .pagination {
-	content: counter(definitions, decimal) ". ";
+  content: counter(definitions, decimal) ". ";
 }
 
 /* Pagination */
+.pagination {
    margin: 36px auto;
    text-align: center;
 }
