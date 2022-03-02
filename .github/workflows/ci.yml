@@ -10,41 +10,37 @@ on:
     branches: [ master ]
 
 jobs:
-#   build:
-#     runs-on: ubuntu-latest
-
-#     strategy:
-#       matrix:
-#         node-version: [16.x]
-#         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
-#     steps:
-#     - uses: actions/checkout@v2
-#     - name: Use Node.js ${{ matrix.node-version }}
-#       uses: actions/setup-node@v2
-#       with:
-#         node-version: ${{ matrix.node-version }}
-#         cache: 'npm'
-#     - run: npm ci
-#     - run: npm run build
-
-
-  S3PackageUpload:
+  build-and-deploy:
     permissions:
       id-token: write
       contents: read    # This is required for actions/checkout@v2
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [16.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
     steps:
-      - name: Git clone the repository
-        uses: actions/checkout@v2
-      - name: configure aws credentials
-        uses: aws-actions/configure-aws-credentials@v1
-        with:
-          role-to-assume: arn:aws:iam::853939294566:role/gha-runner-role-christopher.do
-          role-session-name: gha-runner
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v2
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+    - run: npm ci
+    - run: npm run build
+    
+    - name: configure aws credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        role-to-assume: arn:aws:iam::853939294566:role/gha-runner-role-christopher.do
+        role-session-name: gha-runner
 #           aws-region: ${{ env.AWS_REGION }}
-          aws-region: us-east-1
-      # Upload a file to AWS s3
-      - name:  Test s3
-        run: |
-          aws s3 ls
+        aws-region: us-east-1
+    # Upload a file to AWS s3
+    - name:  List s3
+      run: aws s3 ls
+    - name: Push to S3
+      run: aws s3 sync "public/" "s3://www.christopher.do" --delete --acl "public-read"
+        
