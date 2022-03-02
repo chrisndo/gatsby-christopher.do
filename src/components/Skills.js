@@ -1,7 +1,6 @@
 import React from "react";
 
 const Skills = () => (
-  <section id="Certs">
   <div className="row skill">
     <div className="three columns header-col">
       <h1>
@@ -166,7 +165,6 @@ const Skills = () => (
 
     </div>
   </div>
-  </section>
 );
 
 export default Skills;
