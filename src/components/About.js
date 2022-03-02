@@ -39,7 +39,7 @@ const About = () => (
           </div>
           <div className="columns download">
             <p>
-              <a href={resumePDF} target="_blank" className="button">
+              <a href="https://docs.google.com/document/d/1LY4l4YPPRe4KwKdYZh3ujUqqtE4DXgB7UDYs8fK4aus/export?format=pdf" target="_blank" className="button">
                 <FaCloudDownloadAlt /> Download Resume
               </a>
             </p>
