@@ -1,5 +1,5 @@
-import React from "react";
-import { FaChevronCircleDown } from "react-icons/fa";
+import React from 'react'
+import { FaChevronCircleDown } from 'react-icons/fa'
 
 const ScrollDown = () => (
   <p className="scrolldown">
@@ -7,6 +7,6 @@ const ScrollDown = () => (
       <FaChevronCircleDown />
     </a>
   </p>
-);
+)
 
-export default ScrollDown;
+export default ScrollDown

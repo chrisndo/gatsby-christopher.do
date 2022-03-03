@@ -1,6 +1,6 @@
-import React from "react";
-import SocialLinks from "./SocialLinks";
-import { FaChevronCircleUp } from "react-icons/fa";
+import React from 'react'
+import SocialLinks from './SocialLinks'
+import { FaChevronCircleUp } from 'react-icons/fa'
 
 const Footer = () => (
   <footer id="footer">
@@ -10,7 +10,6 @@ const Footer = () => (
 
         <ul className="copyright">
           <li>Christopher Do - 2022</li>
-
         </ul>
       </div>
 
@@ -21,6 +20,6 @@ const Footer = () => (
       </div>
     </div>
   </footer>
-);
+)
 
-export default Footer;
+export default Footer

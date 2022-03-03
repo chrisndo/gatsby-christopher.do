@@ -1,24 +1,22 @@
-import React from "react";
+import React from 'react'
 
-const isCurrent = (anchor, pathname) => (
-  pathname.endsWith(anchor)
-    ? 'current'
-    : ''
-)
+const isCurrent = (anchor, pathname) =>
+  pathname.endsWith(anchor) ? 'current' : ''
 class Navigation extends React.Component {
   state = {
-    pathname: '#home'
+    pathname: '#home',
   }
   componentDidMount() {
     window.addEventListener('hashchange', () => {
-      this.setState({ pathname: window.location.href });
+      this.setState({ pathname: window.location.href })
     })
   }
   render() {
     const { pathname = '' } = this.state
     return (
       <nav id="nav-wrap">
-        <a className="mobile-btn" href="#nav-wrap" />  {/* eslint-disable-line */}
+        <a className="mobile-btn" href="#nav-wrap" />{' '}
+        {/* eslint-disable-line */}
         <ul id="nav" className="nav">
           <li className={isCurrent('#home', pathname)}>
             <a className="smoothscroll" href="#home">
@@ -49,6 +47,6 @@ class Navigation extends React.Component {
       </nav>
     )
   }
-};
+}
 
-export default Navigation;
+export default Navigation

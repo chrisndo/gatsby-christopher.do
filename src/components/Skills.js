@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 const Skills = () => (
   <div className="row skill">
@@ -44,7 +44,14 @@ const Skills = () => (
               EC-Council
               <span>&bull;</span>
               <em className="date">Issued Aug 2019</em>
-              <span>&bull;</span>Member ID: <a href="https://aspen.eccouncil.org/VerifyBadge?type=certification&a=I75bywlb1mWcSHUraFeFfgVUaREFxfxgPK89sxg6mIo=" target="_blank" rel="noreferrer">ECC5219607483</a>
+              <span>&bull;</span>Member ID:{' '}
+              <a
+                href="https://aspen.eccouncil.org/VerifyBadge?type=certification&a=I75bywlb1mWcSHUraFeFfgVUaREFxfxgPK89sxg6mIo="
+                target="_blank"
+                rel="noreferrer"
+              >
+                ECC5219607483
+              </a>
             </font>
           </p>
         </div>
@@ -66,7 +73,10 @@ const Skills = () => (
 
       <div className="row item">
         <div className="twelve columns">
-          <h4>Amazon Web Services Certified Solutions Architect - Professional (AWS CSAP)</h4>
+          <h4>
+            Amazon Web Services Certified Solutions Architect - Professional
+            (AWS CSAP)
+          </h4>
           <p className="info">
             <font color="#0353a3">
               AWS
@@ -78,10 +88,12 @@ const Skills = () => (
         </div>
       </div>
 
-
       <div className="row item">
         <div className="twelve columns">
-          <h4>Amazon Web Services Certified Solutions Architect - Associate (AWS CSAA)</h4>
+          <h4>
+            Amazon Web Services Certified Solutions Architect - Associate (AWS
+            CSAA)
+          </h4>
           <p className="info">
             <font color="#0353a3">
               AWS
@@ -95,7 +107,9 @@ const Skills = () => (
 
       <div className="row item">
         <div className="twelve columns">
-          <h4>Amazon Web Services Certified SysOps Admin - Associate (AWS CSOAA)</h4>
+          <h4>
+            Amazon Web Services Certified SysOps Admin - Associate (AWS CSOAA)
+          </h4>
           <p className="info">
             <font color="#0353a3">
               AWS
@@ -162,9 +176,8 @@ const Skills = () => (
           </p>
         </div>
       </div>
-
     </div>
   </div>
-);
+)
 
-export default Skills;
+export default Skills
