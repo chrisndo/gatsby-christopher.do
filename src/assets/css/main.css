@@ -1099,10 +1099,10 @@ ul#nav li.current a {
   font: 25px/30px "opensans-bold", sans-serif;
 }
 
-#resume .header-col {
+#resume .header-col, #education .header-col, #work .header-col, #certs .header-col {
   padding-top: 9px;
 }
-#resume .main-col {
+#resume .main-col, #education .main-col, #work .main-col, #certs .main-col {
   padding-right: 10%;
 }
 
@@ -1112,17 +1112,17 @@ ul#nav li.current a {
 /*  padding-bottom: 24px;*/
 /*  border-bottom: 1px solid #e8e8e8;*/
 /*}*/
-#resume .info {
+#resume .info, #education .info, #work .info, #certs .info {
 
   color: #000000;
   margin-bottom: 18px;
   margin-top: 9px;
 }
-#resume .info span {
+#resume .info span, #education .info span, #work .info span, #certs .info span {
   margin-right: 5px;
   margin-left: 5px;
 }
-#resume .date {
+#resume .date, #education .date, #work .date, #certs .date {
 
   margin-top: 6px;
 }
