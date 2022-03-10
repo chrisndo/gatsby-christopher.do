@@ -13,7 +13,7 @@ const About = () => (
         <h2>About Me</h2>
         <p>
           Highly driven engineering and technology professional with a MSEE and
-          over 10 years of experience. Excellent at adapting to new technologies
+          over 12 years of experience. Excellent at adapting to new technologies
           in a changing environment. Extremely resourceful, analytical, and
           detail-driven when managing and completing multiple tasks or projects
           efficiently. Excellent teamwork, leadership, and communication skills.{' '}
