@@ -121,6 +121,22 @@ const Skills = () => (
         </div>
       </div>
 
+
+      <div className="row item">
+        <div className="twelve columns">
+          <h4>
+            HashiCorp Certified: Terraform Associate
+          </h4>
+          <p className="info">
+            <font color="#0353a3">
+              HashiCorp
+              <span>&bull;</span>
+              <em className="date">Issued Mar 2022</em>
+            </font>
+          </p>
+        </div>
+      </div>
+
       <div className="row item">
         <div className="twelve columns">
           <h4>Amazon Web Services Certified Cloud Practitioner</h4>
