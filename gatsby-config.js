@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Christopher.Do",
-    author: "Chris Do",
-    description: "A personal site about Chris Do"
+    title: `Christopher.Do`,
+    author: `Chris Do`,
+    description: `A personal site about Chris Do`,
   },
   pathPrefix: "/",
   plugins: [

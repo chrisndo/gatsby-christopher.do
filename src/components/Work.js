@@ -30,7 +30,7 @@ const Work = () => (
           <div className="twelve columns">
             <h3>Deloitte</h3>
             <p className="info">
-              Cloud Security Engineer
+              Cloud Security Engineer & Architect
               <span>&bull;</span>
               <em className="date">November 2019 - September 2021</em>
             </p>
@@ -93,7 +93,7 @@ const Work = () => (
           <div className="twelve columns">
             <h3>Booz Allen Hamilton</h3>
             <p className="info">
-              Cloud Security Engineer
+              Cloud Security Engineer & Architect
               <span>&bull;</span>
               <em className="date">September 2018 - November 2019</em>
             </p>

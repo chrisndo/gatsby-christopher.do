@@ -1,11 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
+import { Helmet } from "react-helmet"
 import { siteMetadata } from '../../gatsby-config'
 
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet>
+      <title>christopher.do</title>
       <meta name="author" description={siteMetadata.author} />
       <link
         rel="stylesheet"
@@ -17,7 +18,6 @@ const TemplateWrapper = ({ children }) => (
         type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
       />
-      <title>{siteMetadata.title}</title>
       <link
         rel="icon"
         href="../assets/images/favicon.png"
