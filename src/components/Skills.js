@@ -128,7 +128,7 @@ const Skills = () => (
           </h4>
           <p className="info">
             <font color="#0353a3">
-              AWS
+              GCP
               <span>&bull;</span>
               <em className="date">Issued June 2022</em>
               <span>&bull;</span>Member ID:  dB9xsR
