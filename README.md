@@ -1,3 +1,3 @@
 # Chris' personal site
 
-tbd
+Resume website @ https://christopher.do
