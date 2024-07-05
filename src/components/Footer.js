@@ -9,7 +9,7 @@ const Footer = () => (
         <SocialLinks />
 
         <ul className="copyright">
-          <li>Christopher Do - 2022</li>
+          <li>Christopher Do - 2024</li>
         </ul>
       </div>
 
