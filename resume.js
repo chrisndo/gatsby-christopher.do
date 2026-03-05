@@ -2,7 +2,7 @@ module.exports = {
   resume: {
     title: 'Christopher.Do',
     author: 'Chris Do',
-    description: 'Senior Architect @ McKinsey & Co',
+    description: 'Security @ Blue Health Intelligence',
     about: 'Technology professional with a Masters degree and over 15 years of professional experience. Excels at adapting to new technologies in a constantly evolving tech space. Outstanding teamwork, leadership, and communication skills.  A technology generalist that works at the intersection of Cloud, Cybersecurity, and Generative AI. Thrives in a challenging, collaborative, fast-paced environment with a knack for finding solutions and completing objectives ahead of schedule.',
     contact: [
       'Chris Do',
@@ -23,6 +23,22 @@ module.exports = {
       },
     ],
     work: [
+      {
+        employer: 'Blue Health Intelligence',
+        title: 'Director, Security Engineering and Architecture',
+        start_date: 'Oct 2034',
+        end_date: 'Present',
+        experience: [
+          'Led and mentored team of engineers, architects, and analysts across FTEs and contractors to help support infrastructure, security, and operations across multiple different environments',
+          'Collaborated across entire organization to serve as security expert and trusted advisor for implementations related to AI, AWS Cloud, Databricks, and Snowflake, setting the standards and best practices',
+          'Architected and implemented a FedRAMP High compliant environment in AWS GovCloud to support federal clients that included product architecture, CI/CD infrastructure, and automated provisioning via infrastructure as code',
+          'Served as Information System Security Manager (ISSM) for FedRAMP environment to manage continuous monitoring, vulnerability management, deviation requests',
+          'Built automated environment provisioning process to reduce manual efforts from days to less than an hour via Terraform, scripts, and CI/CD pipelines',
+          'Automated common GRC evidence requirements into code for continuous/real-time audit support to reduce manually logging into consoles, taking screenshots with timestamps, etc.',
+          'Reduced organization-wide cloud security vulnerabilities by 95% thru infrastructure as code guardrails, remediation scripts, standard secure baseline patterns, and documenting best practices',
+          'Worked with data governance to implement secure measures for data movement across different environments'
+        ]
+      },
       {
         employer: 'McKinsey & Company',
         title: 'Senior Architect',
