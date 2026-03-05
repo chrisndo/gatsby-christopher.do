@@ -26,7 +26,7 @@ module.exports = {
       {
         employer: 'Blue Health Intelligence',
         title: 'Director, Security Engineering and Architecture',
-        start_date: 'Oct 2034',
+        start_date: 'Oct 2024',
         end_date: 'Present',
         experience: [
           'Led and mentored team of engineers, architects, and analysts across FTEs and contractors to help support infrastructure, security, and operations across multiple different environments',
