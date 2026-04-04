@@ -70,8 +70,8 @@ const MastersPage = () => (
 
       <p style={styles.sectionHeading}>How It Works</p>
       <p style={styles.body}>
-        Everyone picks a team of 5 golfers. Add all your golfers scores to form your team score.
-        The best team score wins the pool. Cut golfers (and anyone who doesn&apos;t finish 4 rounds)
+        Everyone picks a team of 10 golfers. Add your best 6 of 10 golfers scores to form your team score. 
+        The best team score wins the pool. Cut golfers (and anyone who doesn&apos;t finish 4 rounds) 
         get 80 for any rounds not completed. Playoff holes do not count.
       </p>
 
