@@ -107,7 +107,7 @@ const MastersPage = () => (
           3rd place &mdash; 5% of total pool
         </p>
         <p style={{ ...styles.body, marginTop: "10px", fontStyle: "italic" }}>
-          Last chance to enter is April 10 at 7am ET.
+          Last chance to enter is April 9 at 7am ET.
         </p>
       </div>
 
