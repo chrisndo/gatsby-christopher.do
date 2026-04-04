@@ -89,7 +89,8 @@ const MastersPage = () => (
           Add your best 6 of 10 golfers scores to form your team score.<br />
           The best team score wins the pool.<br />
           Cut golfers (and anyone who doesn&apos;t finish 4 rounds) get 80 for any rounds not completed.<br />
-          Playoff holes do not count.
+          Playoff holes do not count.<br />
+          Tiebreaker info <a href="https://help.easyofficepools.com/article/84-how-does-the-tiebreaker-work" style={{ color: "#c44a1a" }}>here</a>
         </p>
       </div>
 
