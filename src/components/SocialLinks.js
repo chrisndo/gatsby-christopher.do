@@ -15,6 +15,7 @@ const SocialLinks = () => (
         href="https://www.facebook.com/ChristopherDo"
         target="_blank"
         rel="noreferrer"
+        aria-label="Facebook"
       >
         <FaFacebookSquare />
       </a>
@@ -24,6 +25,7 @@ const SocialLinks = () => (
         href="https://www.linkedin.com/in/chrisndo/"
         target="_blank"
         rel="noreferrer"
+        aria-label="LinkedIn"
       >
         <FaLinkedin />
       </a>
@@ -33,17 +35,18 @@ const SocialLinks = () => (
         href="https://www.instagram.com/ufcdo/"
         target="_blank"
         rel="noreferrer"
+        aria-label="Instagram"
       >
         <FaInstagram />
       </a>
     </li>
     <li>
-      <a href="mailto:chris.n.do@gmail.com" target="_blank" rel="noreferrer">
+      <a href="mailto:chris.n.do@gmail.com" target="_blank" rel="noreferrer" aria-label="Email">
         <FaEnvelopeSquare />
       </a>
     </li>
     <li>
-      <a href="http://github.com/chrisndo/" target="_blank" rel="noreferrer">
+      <a href="http://github.com/chrisndo/" target="_blank" rel="noreferrer" aria-label="GitHub">
         <FaGithub />
       </a>
     </li>

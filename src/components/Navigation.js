@@ -15,7 +15,7 @@ class Navigation extends React.Component {
     const { pathname = '' } = this.state
     return (
       <nav id="nav-wrap">
-        <a className="mobile-btn" href="#nav-wrap" />{' '}
+        <a className="mobile-btn" href="#nav-wrap" aria-label="Toggle navigation">{' '}</a>{' '}
         {/* eslint-disable-line */}
         <ul id="nav" className="nav">
           <li className={isCurrent('#home', pathname)}>
